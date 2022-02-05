@@ -1,0 +1,16 @@
+name: BlastProofItems
+main: com.MrEngMan.BlastProofItems.BlastProofItems
+author: MrEngMan
+description: Only take damage from beds and end crystals you explode
+api-version: '1.13'
+version: 1.0
+
+commands:
+    bpireload:
+      description: Reload Config
+      usage: '/bpireload'
+     
+permissions:
+  bpireload.reload:
+    default: op
+
